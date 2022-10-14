@@ -1,0 +1,253 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    background-image: url("/imgs/blueDark1.jpg");  
+    height: 600px;   
+    background-repeat: no-repeat; 
+    justify-content: center;
+    align-items: center;  
+}
+.header-container
+{
+    background-image: url(/imgs/blueDark1.jpg);
+}
+header
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items:center;      
+    height: 40px;
+}
+.header-titulo
+{
+    color:azure;
+    font-size: 24px;
+    width: 20%;
+    text-align: center;
+}
+.header-nav-list
+{    
+    justify-content:space-around;
+    align-items: center;    
+    width: 50%;
+}
+
+.headerPrincipal-nav-link
+{   
+    width: 50px;
+    font-family: Verdana;     
+    border-radius: 10px;    
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center; 
+    padding-right: 4%;  
+}
+.index-inicio-software, .index-div-final-software
+{
+    flex-grow: 1;
+}
+.index-section-msjSoftwareDevoloper
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.div-devoloperSoftware
+{
+    display: block;
+}
+.section-software
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 1;  
+}
+
+.section-sofware-i
+{
+    color: azure;
+    font-size: 70px;
+}
+.section-sofware-m
+{
+    font-size: 70px;
+    color: rgb(250, 230, 4);
+}
+.section-devoloper
+{
+    color: rgb(250, 230, 4);
+    font-size: 74px;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.section-body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.section-div-bn-myProyects
+{
+    display: inline-block;
+    background-color: rgb(9, 12, 177);
+    color:aliceblue;
+    border-radius: 18px;
+    font-size: 24px;
+    padding: 2%;  
+    text-align: center; 
+    cursor: pointer;
+}
+.section-div-bn-myProyects:hover
+{
+    background-color: rgb(67, 183, 194);
+    color: black;
+}
+.section-div-bn-myProyects:active 
+{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.index_btns_ProjectsAndDownload
+{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 5%;
+}
+
+.div-imgRaj
+{   
+    display: block;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;    
+}
+.imgRaj
+{    
+    height: 400px;
+    width: 90%;  
+    flex-grow: 1;
+}
+.section-div-h3-raul
+{
+    font-size: 30px;
+    color: azure;
+    flex-grow: 1;
+    text-align: center;
+}
+#index-div-Raul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#indexDiv_raj_1
+{
+    flex-grow: 7;
+    background-color: rgb(2, 221, 249, 40%);
+    height: 20px;
+}
+#indexDiv_raj_2
+{
+    flex-grow: 4;
+    background-color:  rgb(2, 221, 249, 40%);
+    height: 20px; 
+}
+.footerContainer
+{
+    background-image: url(/imgs/blueDark1.jpg);
+    min-height: 150px;
+    width: 1024;
+}
+.footer1Section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 150px; 
+    min-height: auto;
+}
+
+#footerSectionSocialNetworks
+{
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1;
+}
+#footerTitleSocialNetworks
+{
+    color: azure;
+    align-items: center; 
+    text-align: center;  
+    padding-bottom: 2%;
+}
+#footerSocialNetworksLinks
+{
+    display: flex;     
+    justify-content: center; 
+    align-items: center;   
+}
+.footerlinks
+{   
+    display: inline-block;
+    color: azure;
+    animation: none;
+    background-color: none;        
+    font-family: Verdana;
+    background-color: none;    
+    border-radius: 10px;       
+    text-decoration: none;
+    width: 100px;
+    text-align: center;   
+}
+.footerImgs
+{
+    display: inline-block;
+    align-items: center;
+    height: 70px;
+    height: 50px;
+    margin: 0;
+    padding: 0px 0px;
+    text-align: center;    
+}
+
+#footer-div-espacio-medio
+{
+    flex-grow: 1.3;
+}
+#footer-div-espacio-final
+{
+    flex-grow: 2;
+}
+#footerSectionMsj
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: rgb(209, 250, 4);   
+    flex-grow: 1;   
+}
+.footerSection-msj
+{    
+    min-height: 40px;
+    min-width: 300px;
+    text-align: center; 
+    margin: 0;    
+    margin-top: 3%;     
+}
+

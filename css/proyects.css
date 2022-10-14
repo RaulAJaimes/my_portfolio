@@ -1,0 +1,104 @@
+#proyects-div-container
+{
+    background-color: rgb(240, 236, 230);
+    width: auto;
+    height: 560px;
+}
+#projects-section
+{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects-section-projects
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+#proyects-article-msj
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+    min-height: 100px;   
+    min-width: 300px;  
+    margin-bottom: 0%; 
+}
+.projects-div-txt
+{
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+    width: 400px;
+    min-width: 300px;
+}
+.projects-div-botton
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    width: 400px;
+    min-width: 200px;
+}
+
+.btn-projects-section-page
+{
+    display: inline-block;
+    background-color: rgb(9, 12, 177);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 4px solid #fa058c;
+    font-size: 24px;
+    padding: 3%;  
+    text-align: center; 
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+}
+.btn-projects-section-page:hover
+{
+    background-color: rgb(67, 183, 194);
+    color: black;
+}
+.btn-projects-section-page:active 
+{
+    background-color: #080963;
+    box-shadow: 0 5px #666;
+    color: aliceblue;
+    transform: translateY(4px);
+}
+.btn-projects-section-GitHub
+{
+    display: inline-block;
+    background-color: rgb(5, 5, 5);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 4px solid #a3ab0a;
+    font-size: 24px;
+    padding: 3%;  
+    text-align: center; 
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px;
+}
+.btn-projects-section-GitHub:hover
+{
+    background-color: rgb(29, 0, 252);
+    color: rgb(250, 250, 1);
+}
+.btn-projects-section-GitHub:active 
+{
+    background-color: #170101;
+    box-shadow: 0 5px #666;
+    color: rgb(10, 252, 22);
+    transform: translateY(4px);
+}

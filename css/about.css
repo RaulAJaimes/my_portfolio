@@ -1,0 +1,35 @@
+#about
+{
+    background-color:rgb(255, 235, 205, 25%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+}
+.about-section
+{
+    display: block;
+    justify-content: space-around;
+    align-content: center;  
+}
+.about-section-whoIsRaulJaimes
+{
+    display: block;
+    flex-grow: 1;    
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+.about-sectionhobbies
+{
+    flex-grow: 2;    
+    margin-right: 2%;
+}
+#about-section-article-whoIsRaulJaimes
+{
+    text-align: justify;
+}
+.about-section-title
+{
+    font-size: 28px;
+}

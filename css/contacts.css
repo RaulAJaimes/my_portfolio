@@ -1,0 +1,164 @@
+*{
+
+}
+#contacts-section
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 236, 211, 0.5);
+    height: 500px;
+    flex-direction: column;
+}
+#contacts-div-contacts
+{
+    background-color: blueviolet;
+}
+#contacts-section-msj
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    color: azure;    
+    height: 100px;
+    margin-top: 4%;
+    text-align: center;
+    flex-shrink: 1;
+}
+.contacts
+{
+    display: flex;  
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet; 
+    height: 200px;   
+}
+#btn-contacts-facebook
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(9, 12, 177);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 3px solid rgb(5, 5, 5);
+    font-size: 24px;     
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    animation: none;
+    margin-top: 1%;
+    text-decoration: none;
+}
+#btn-contacts-facebook:hover
+{
+    background-color: rgb(67, 183, 194);
+    color: black;
+}
+#btn-contacts-facebook:active
+{
+    background-color: rgb(13, 62, 223, 70%);
+    box-shadow: 0 5px #666;
+    color: azure;
+    transform: translateY(4px);
+}
+#p-facebook
+{
+    margin-top: 6%;
+}
+
+#btn-contacts-whatssap
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(56, 147, 46);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 3px solid rgb(5, 5, 5);
+    font-size: 24px;     
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    animation: none;
+    margin-top: 1%;
+    text-decoration: none;
+}
+#btn-contacts-whatssap:hover
+{
+    background-color: rgb(109, 221, 163);
+    color: black;
+}
+#btn-contacts-whatssap:active
+{
+    background-color: rgba(14, 232, 14, 0.7);
+    box-shadow: 0 5px #666;
+    color: azure;
+    transform: translateY(4px);
+}
+
+#btn-contacts-telegram
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(37, 133, 180);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 3px solid rgb(5, 5, 5);
+    font-size: 24px;     
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    animation: none;
+    margin-top: 1%;
+    text-decoration: none;
+}
+#btn-contacts-telegram:hover
+{
+    background-color: rgb(159, 226, 245);
+    color: black;
+}
+#btn-contacts-telegram:active
+{
+    background-color: rgba(58, 149, 206, 0.7);
+    box-shadow: 0 5px #666;
+    color: azure;
+    transform: translateY(4px);
+}
+#btn-contacts-email
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(181, 50, 50);
+    color:aliceblue;
+    border-radius: 18px;
+    border: 3px solid rgb(5, 5, 5);
+    font-size: 24px;     
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    animation: none;
+    margin-top: 1%;
+    text-decoration: none;
+}
+#btn-contacts-email:hover
+{
+    background-color: rgb(221, 126, 109);
+    color: black;
+}
+#btn-contacts-email:active
+{
+    background-color: rgba(241, 9, 145, 0.7);
+    box-shadow: 0 5px #666;
+    color: azure;
+    transform: translateY(4px);
+}
+

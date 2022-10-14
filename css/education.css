@@ -1,0 +1,79 @@
+
+.Education
+{
+    background-color: hsl(180, 100%, 50%, 26%);
+    height: 600px;
+}
+#educationCertification
+{    
+    align-items: center;
+    width: 1024;  
+    margin-top: 2%;
+    padding: 0; 
+       
+}
+.titleCertification
+{
+    margin-inline-start:24em;
+    font-size: 28px;
+    color: rgb(226, 73, 43);
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2%;
+}
+.educationSectioPrincipal
+{
+    display: inline-block;  
+    margin-top: 2%;  
+}
+.educationSection-ul
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.divCurso
+{
+    display: inline-block;
+    width: 150px;
+    font-family: Verdana;
+    background-color: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 50px;
+    color: rgb(8, 8, 8);
+    text-decoration: none; 
+    text-align: center; 
+
+}
+.imgCursos
+{
+    width: 90px;
+    height: 60px;
+    display: inline;
+    align-items: center;    
+}
+.divEducationCursos
+{
+    display: flex;
+    padding: 5px;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.educationSectionOracle
+{
+    font-size: 24px;
+    font-family: Georgia;
+    margin: 1%; 
+    padding: 0%; 
+    text-align: center;
+}
+.educationSectionBeginner
+{
+    color: blue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1%;
+}
