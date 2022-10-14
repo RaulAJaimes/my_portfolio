@@ -5,7 +5,7 @@
 }
 .container
 {
-    background-image: url("/imgs/blueDark1.jpg");  
+    background-image: url("imgs/blueDark1.jpg");  
     height: 600px;   
     background-repeat: no-repeat; 
     justify-content: center;
@@ -13,7 +13,7 @@
 }
 .header-container
 {
-    background-image: url(/imgs/blueDark1.jpg);
+    background-image: url("imgs/blueDark1.jpg");
 }
 header
 {
@@ -167,7 +167,7 @@ header
 }
 .footerContainer
 {
-    background-image: url(/imgs/blueDark1.jpg);
+    background-image: url("imgs/blueDark1.jpg");
     min-height: 150px;
     width: 1024;
 }
