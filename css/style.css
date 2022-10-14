@@ -5,7 +5,7 @@
 }
 .container
 {
-    background-image: url("imgs/blueDark1.jpg");  
+    background-image: url("/imgs/blueDark1.jpg");  
     height: 600px;   
     background-repeat: no-repeat; 
     justify-content: center;
